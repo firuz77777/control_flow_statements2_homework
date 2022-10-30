@@ -23,3 +23,4 @@ def main(n):
     if x5 > x1 or x5 > x2 or x5 > x3 or x5 > x4: 
         m = x5
     return m
+print(main(73382))
