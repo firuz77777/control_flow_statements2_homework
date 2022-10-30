@@ -17,4 +17,4 @@ def main(a,b):
         m = a
     if b > a:
         m = b
-    return
+    return m
