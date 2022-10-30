@@ -7,7 +7,7 @@ def main(a,b,c):
         c: Third number.
     Returns:
         int: return answer.
-    """
+    """ 
     mx = a
     if mx < b:
         mx = b
