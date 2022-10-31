@@ -14,9 +14,9 @@ def main(temp):
         str: return answer.
     """
     a = 0
-    if temp == 0:
+    if temp < 0:
         a = "Freezing"
-    elif temp <= 10:
+    elif temp >= 1 and temp <= 10:
         a = "Very Cold"
     elif temp > 10 and temp <= 20:
         a = "Cold"
