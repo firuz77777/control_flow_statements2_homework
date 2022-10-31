@@ -12,15 +12,15 @@ def main(n):
     x3 = n % 1000 // 100
     x4 = n % 100 // 10 
     x5 = n % 10
-    if x1 > x2 or x1 > x3 or x1 > x4 or x1 > x5:
+    if x1 > x2 and x1 > x3 and x1 > x4 and x1 > x5:
         m = x1
-    if x2 > x1 or x2 > x3 or x2 > x4 or x2 > x5:
+    if x2 > x1 and x2 > x3 and x2 > x4 and x2 > x5:
         m = x2
-    if x3 > x1 or x3 > x2 or x3 > x4 or x3 > x5:
+    if x3 > x1 and x3 > x2 and x3 > x4 and x3 > x5:
         m = x3
-    if x4 > x1 or x4 > x2 or x4 > x3 or x4 > x5:
+    if x4 > x1 and x4 > x2 and x4 > x3 and x4 > x5:
         m = x4
-    if x5 > x1 or x5 > x2 or x5 > x3 or x5 > x4: 
+    if x5 > x1 and x5 > x2 and x5 > x3 and x5 > x4: 
         m = x5
     return m
 print(main(73382))
