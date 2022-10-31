@@ -21,7 +21,7 @@ def main(temp):
     elif temp > 10 and temp <= 20:
         a = "Cold"
     elif temp > 20 and temp <= 30:
-        a = "Normal"
+        a = "Normal" 
     elif temp > 30 and temp <= 40:
         a = "Hot"
     elif temp > 40:
