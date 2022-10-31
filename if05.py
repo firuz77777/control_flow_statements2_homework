@@ -13,7 +13,7 @@ def main(n):
     x4 = n % 100 // 10 
     x5 = n % 10
     if x1 > x2 and x1 > x3 and x1 > x4 and x1 > x5:
-        m = x1
+        m = x1 
     if x2 > x1 and x2 > x3 and x2 > x4 and x2 > x5:
         m = x2
     if x3 > x1 and x3 > x2 and x3 > x4 and x3 > x5:
